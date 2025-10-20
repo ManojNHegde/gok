@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiritual & Pooja Services - Karavali Compass</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .provider-card:hover {
+             box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+             transform: translateY(-4px);
+             transition: all 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 lg:px-6 py-3 flex justify-between items-center">
+            <a href="karavali_compass_home.html" class="flex items-center space-x-2">
+                <svg width="32" height="32" viewBox="0 0 24 24" class="text-blue-600"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 15l-4-4l1.41-1.41L12 14.17l4.59-4.58L18 11l-6 6z"/></svg>
+                <span class="text-2xl font-bold text-gray-800">Karavali Compass</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600">Activities</a>
+                <a href="category_pooja.html" class="text-blue-600 font-semibold">Pooja Services</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">Accommodation</a>
+                <a href="search_results.html" class="text-gray-600 hover:text-blue-600">Transport</a>
+            </div>
+            <a href="#" class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">List Your Service</a>
+            <button class="md:hidden text-gray-700">
+                <i data-lucide="menu"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800">Spiritual & Pooja Services</h1>
+            <p class="text-lg text-gray-600 mt-2">Find trusted and experienced priests for all your ritual needs in Gokarna.</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="mb-8 flex flex-wrap justify-center gap-2 md:gap-4">
+            <button class="px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-medium">All Poojas</button>
+            <button class="px-4 py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-gray-100 text-sm font-medium">Main Temple Darshan</button>
+            <button class="px-4 py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-gray-100 text-sm font-medium">Ancestral Rites</button>
+            <button class="px-4 py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-gray-100 text-sm font-medium">Vedic Rituals (Homas)</button>
+        </div>
+
+        <!-- Provider Listings -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Provider Card 1 -->
+            <div class="provider-card bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/400x250/FBCFE8/333333?text=Pandit+Vighnesh+Sharma" alt="Priest Vighnesh Sharma" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-xl font-bold text-gray-800">Pandit Vighnesh Sharma</h3>
+                        <span class="flex-shrink-0 ml-2 text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i>Verified</span>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">Specialist in Narayan Bali & Pitru Dosha</p>
+                    <div class="flex items-center text-yellow-500 mt-3">
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <span class="text-gray-600 text-sm ml-2">5.0 (45 reviews)</span>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-3 flex items-center"><i data-lucide="map-pin" class="h-4 w-4 mr-2 text-gray-400"></i>Near Koti Teertha, Gokarna</p>
+                    <a href="provider_detail.html" class="block w-full mt-4 text-center bg-blue-600 text-white font-semibold py-2.5 rounded-lg hover:bg-blue-700 transition">View Details & Contact</a>
+                </div>
+            </div>
+            
+            <!-- Provider Card 2 -->
+            <div class="provider-card bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/400x250/FED7AA/333333?text=Acharya+Ganesh+Bhat" alt="Acharya Ganesh Bhat" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-xl font-bold text-gray-800">Acharya Ganesh Bhat</h3>
+                        <span class="flex-shrink-0 ml-2 text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i>Verified</span>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">Expert in Kala Sarpa Dosha Shanti</p>
+                    <div class="flex items-center text-yellow-500 mt-3">
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star-half" class="h-4 w-4 fill-current"></i>
+                        <span class="text-gray-600 text-sm ml-2">4.9 (32 reviews)</span>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-3 flex items-center"><i data-lucide="map-pin" class="h-4 w-4 mr-2 text-gray-400"></i>Mahabaleshwar Temple Road</p>
+                    <a href="#" class="block w-full mt-4 text-center bg-blue-600 text-white font-semibold py-2.5 rounded-lg hover:bg-blue-700 transition">View Details & Contact</a>
+                </div>
+            </div>
+
+            <!-- Provider Card 3 -->
+            <div class="provider-card bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/400x250/BFDBFE/333333?text=Shastri+Ramakrishna+Joshi" alt="Shastri Ramakrishna Joshi" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-xl font-bold text-gray-800">Shastri Ramakrishna Joshi</h3>
+                         <span class="flex-shrink-0 ml-2 text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full font-semibold flex items-center gap-1"><i data-lucide="shield-check" class="h-3 w-3"></i>Verified</span>
+                    </div>
+                    <p class="text-sm text-gray-500 mt-1">Tripindi Shraddha & General Poojas</p>
+                    <div class="flex items-center text-yellow-500 mt-3">
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                        <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                         <i data-lucide="star" class="h-4 w-4 text-gray-300 fill-current"></i>
+                        <span class="text-gray-600 text-sm ml-2">4.7 (25 reviews)</span>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-3 flex items-center"><i data-lucide="map-pin" class="h-4 w-4 mr-2 text-gray-400"></i>Gokarna Main Street</p>
+                    <a href="#" class="block w-full mt-4 text-center bg-blue-600 text-white font-semibold py-2.5 rounded-lg hover:bg-blue-700 transition">View Details & Contact</a>
+                </div>
+            </div>
+            <!-- More cards can be added here -->
+        </div>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-10 text-center text-gray-500">
+            &copy; 2025 Karavali Compass. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+

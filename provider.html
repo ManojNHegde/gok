@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandit Vighnesh Sharma - Karavali Compass</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .sticky-card {
+            position: sticky;
+            top: 6rem; /* Adjust based on header height */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 lg:px-6 py-3 flex justify-between items-center">
+            <a href="karavali_compass_home.html" class="flex items-center space-x-2">
+                <svg width="32" height="32" viewBox="0 0 24 24" class="text-blue-600"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 15l-4-4l1.41-1.41L12 14.17l4.59-4.58L18 11l-6 6z"/></svg>
+                <span class="text-2xl font-bold text-gray-800">Karavali Compass</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#" class="text-gray-600 hover:text-blue-600">Activities</a>
+                <a href="category_pooja.html" class="text-blue-600 font-semibold">Pooja Services</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600">Accommodation</a>
+                <a href="search_results.html" class="text-gray-600 hover:text-blue-600">Transport</a>
+            </div>
+            <a href="#" class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">List Your Service</a>
+            <button class="md:hidden text-gray-700">
+                <i data-lucide="menu"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Breadcrumbs -->
+        <nav class="text-sm text-gray-500 mb-6">
+            <a href="karavali_compass_home.html" class="hover:underline">Home</a> &gt; 
+            <a href="category_pooja.html" class="hover:underline">Pooja Services</a> &gt; 
+            <span class="font-medium text-gray-700">Pandit Vighnesh Sharma</span>
+        </nav>
+
+        <div class="flex flex-col lg:flex-row gap-12">
+            <!-- Left Column: Provider Info -->
+            <div class="w-full lg:w-2/3">
+                <!-- Title -->
+                <div class="flex items-center gap-3 mb-4">
+                    <h1 class="text-4xl font-bold text-gray-800">Pandit Vighnesh Sharma</h1>
+                    <span class="text-xs bg-green-100 text-green-800 px-3 py-1 rounded-full font-semibold flex items-center gap-1"><i data-lucide="shield-check" class="h-4 w-4"></i>Verified Provider</span>
+                </div>
+                
+                <!-- Gallery -->
+                <div class="mb-6">
+                    <img src="https://placehold.co/800x500/FBCFE8/333333?text=Pandit+Vighnesh+Sharma" alt="Main image of Pandit Vighnesh Sharma" class="w-full h-auto object-cover rounded-xl shadow-lg">
+                </div>
+
+                <!-- Key Info -->
+                 <div class="grid grid-cols-2 md:grid-cols-3 gap-4 border-y py-4 mb-8">
+                    <div class="flex items-center gap-3">
+                        <i data-lucide="map-pin" class="h-8 w-8 text-blue-500"></i>
+                        <div>
+                            <span class="text-sm text-gray-500">Location</span>
+                            <p class="font-semibold text-gray-800">Near Koti Teertha</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i data-lucide="languages" class="h-8 w-8 text-blue-500"></i>
+                         <div>
+                            <span class="text-sm text-gray-500">Languages</span>
+                            <p class="font-semibold text-gray-800">English, Hindi, Kannada</p>
+                        </div>
+                    </div>
+                     <div class="flex items-center gap-3">
+                        <i data-lucide="award" class="h-8 w-8 text-blue-500"></i>
+                         <div>
+                            <span class="text-sm text-gray-500">Experience</span>
+                            <p class="font-semibold text-gray-800">20+ Years</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold mb-3 text-gray-800">About Pandit Vighnesh Sharma</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        With over two decades of dedicated experience, Pandit Vighnesh Sharma is a highly respected and knowledgeable priest in Gokarna. He hails from a family of traditional pandits and is well-versed in Vedic scriptures. He specializes in ancestral rites like Narayan Bali and Tripindi Shraddha, helping families find peace and blessings. His calm demeanor and ability to explain rituals clearly make him a preferred choice for both local devotees and visiting tourists.
+                    </p>
+                </div>
+
+                <!-- Services Offered -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold mb-4 text-gray-800">Services Offered</h2>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 border rounded-lg">
+                            <h3 class="font-semibold text-lg text-gray-800">Narayan Bali Pooja</h3>
+                            <p class="text-gray-600 mt-1">A crucial ritual performed for unnatural deaths to help the soul attain peace.</p>
+                        </div>
+                        <div class="bg-white p-4 border rounded-lg">
+                            <h3 class="font-semibold text-lg text-gray-800">Tripindi Shraddha</h3>
+                            <p class="text-gray-600 mt-1">For ancestors whose death dates are unknown or whose rites have been missed.</p>
+                        </div>
+                         <div class="bg-white p-4 border rounded-lg">
+                            <h3 class="font-semibold text-lg text-gray-800">Kala Sarpa Dosha Shanti</h3>
+                            <p class="text-gray-600 mt-1">A pooja to mitigate the astrological effects of Kala Sarpa Dosha.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Reviews Section -->
+                <div>
+                     <h2 class="text-2xl font-bold mb-4 text-gray-800">Reviews (45)</h2>
+                     <div class="space-y-6">
+                        <!-- Review 1 -->
+                        <div class="bg-white p-5 rounded-lg border">
+                           <div class="flex justify-between items-center">
+                                <div>
+                                    <h4 class="font-semibold">Ravi Kumar</h4>
+                                    <p class="text-sm text-gray-500">From Bengaluru</p>
+                                </div>
+                                <div class="flex items-center text-yellow-500">
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                </div>
+                           </div>
+                           <p class="mt-3 text-gray-700">Pandit-ji was very patient and explained everything perfectly. We felt very blessed after performing the pooja. Highly recommended.</p>
+                        </div>
+                        <!-- Review 2 -->
+                        <div class="bg-white p-5 rounded-lg border">
+                           <div class="flex justify-between items-center">
+                                <div>
+                                    <h4 class="font-semibold">Priya Desai</h4>
+                                    <p class="text-sm text-gray-500">From Mumbai</p>
+                                </div>
+                                <div class="flex items-center text-yellow-500">
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                    <i data-lucide="star" class="h-4 w-4 fill-current"></i>
+                                </div>
+                           </div>
+                           <p class="mt-3 text-gray-700">Very professional and authentic. He arranged all the necessary items for the pooja. Our family is grateful for his services.</p>
+                        </div>
+                     </div>
+                </div>
+
+            </div>
+
+            <!-- Right Column: Contact CTA -->
+            <div class="w-full lg:w-1/3">
+                <div class="sticky-card bg-white p-6 rounded-xl shadow-2xl border">
+                    <h2 class="text-2xl font-bold text-center text-gray-800 mb-4">Contact Provider Directly</h2>
+                    <div class="space-y-4">
+                        <button class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg text-lg flex items-center justify-center gap-2 hover:bg-blue-700 transition">
+                            <i data-lucide="phone"></i>
+                            Show Phone Number
+                        </button>
+                        <a href="#" class="w-full bg-green-500 text-white font-bold py-3 rounded-lg text-lg flex items-center justify-center gap-2 hover:bg-green-600 transition">
+                             <i data-lucide="message-circle"></i>
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+                    <p class="text-center text-sm text-gray-500 mt-4">
+                        You will connect directly with Pandit Vighnesh Sharma. <br>
+                        <strong>No commission, no extra fees.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-10 text-center text-gray-500">
+            &copy; 2025 Karavali Compass. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
